@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:5050/api/analyze";
-const HISTORY_URL = "http://127.0.0.1:5050/api/history";
+const API_URL = "https://skillsync-ai-edjk.onrender.com/api/analyze";
+const HISTORY_URL = "https://skillsync-ai-edjk.onrender.com/api/history";
 
 function App() {
   const [targetRole, setTargetRole] = useState("");
